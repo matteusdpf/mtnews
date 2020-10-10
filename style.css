@@ -1,0 +1,58 @@
+body {
+	background-color: lightgray;
+	margin: 0px;
+}
+
+#topbar {
+	background-color: gray;
+	overflow: hidden;	
+}
+
+#topbar a {	
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	float: left;
+}
+
+#topbar a:hover {
+	background-color: black;
+}
+
+#conteudo {
+	clear: both;
+}
+
+
+#info {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p, li {
+	font-size: 18px;
+}
+
+p {
+	font-family: serif;
+	text-align: justify;
+}
+
+.footer {
+	clear: both;
+	background-color: gray;	
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.footer p, .footer a {
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
